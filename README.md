@@ -1,2 +1,5 @@
-# impacta-system-testing
-System testing with java for Impacta studients
+# Tarefa: System Testing
+
+Turma: 19ª Engenharia de software
+
+Aluno: Alan Santana de Andrade
