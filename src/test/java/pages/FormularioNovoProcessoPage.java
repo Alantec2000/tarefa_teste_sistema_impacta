@@ -4,10 +4,10 @@ import support.DriverQA;
 
 import java.util.Random;
 
-public class FormularioNovoProcesso extends BasePage {
+public class FormularioNovoProcessoPage extends BasePage {
     private String codigo;
 
-    public FormularioNovoProcesso(DriverQA stepDriver) {
+    public FormularioNovoProcessoPage(DriverQA stepDriver) {
         super(stepDriver);
     }
 

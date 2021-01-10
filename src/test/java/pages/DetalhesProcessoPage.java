@@ -2,8 +2,8 @@ package pages;
 
 import support.DriverQA;
 
-public class DetalhesProcesso extends BasePage {
-    public DetalhesProcesso(DriverQA stepDriver) {
+public class DetalhesProcessoPage extends BasePage {
+    public DetalhesProcessoPage(DriverQA stepDriver) {
         super(stepDriver);
     }
 

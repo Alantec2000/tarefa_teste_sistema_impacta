@@ -1,6 +1,5 @@
 package steps;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.E;
 import cucumber.api.java.pt.Entao;
@@ -14,8 +13,8 @@ public class CrudProcessoSteps extends BaseSteps {
     private HomePage homePage = new HomePage(driver);
     private MenuLateral menuLateral = new MenuLateral(driver);
     private ListaProcessosPage listaProcessosPage = new ListaProcessosPage(driver);
-    private FormularioNovoProcesso formularioNovoProcesso = new FormularioNovoProcesso(driver);
-    private DetalhesProcesso detalhesProcesso = new DetalhesProcesso(driver);
+    private FormularioNovoProcessoPage formularioNovoProcesso = new FormularioNovoProcessoPage(driver);
+    private DetalhesProcessoPage detalhesProcesso = new DetalhesProcessoPage(driver);
 
     @Dado("^que o usuário esteja na página inicial$")
     public void queOUsuarioEstejaNaPaginaInicial() {
